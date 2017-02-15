@@ -1,0 +1,142 @@
+.headerWrapper {
+	background-color: white;
+	color: #20B2AA;
+}
+
+.row4 {
+	font-size: 25px;
+}
+
+.row5 {
+	font-size: 35px;
+}
+
+#wrapper {
+	background-color: #dddddd;
+	height: 100%;
+	width: 65%;
+	margin-left: 20%;
+}
+
+a {
+	text-decoration: none;
+	color: #20B2AA;
+}
+
+.btnclr {
+	background-color: #f44336;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+ul {
+	margin-left: 5%;
+	padding: 10px 10px 10px 10px;
+}
+
+u {
+	color: #20B2AA;
+}
+
+input[type=text] {
+	width: 10%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+	border: 3px solid #ccc;
+	-webkit-transition: 0.5s;
+	transition: 0.5s;
+	outline: none;
+}
+
+input[type=text]:focus {
+	border: 3px solid #555;
+}
+
+.centeralign {
+	text-align: center;
+}
+
+hr {
+	width: 200px;
+}
+
+h1 {
+	text-align: center;
+	color: white;
+}
+
+td {
+	border-bottom: 2px solid #eeeeee;
+}
+
+.header1 {
+	height: 3in;
+	background-color: #034f84;
+	background-image: url("assets/background1.jpg");
+	overflow: hidden;
+}
+
+.header2 {
+	background-image: url("assets/background2.jpg");
+}
+
+.benefits {
+	margin-left: 5%;
+	width: 90%;
+	border: white;
+	padding: 30px;
+}
+
+.multiplecolums {
+	-webkit-column-count: 2;
+	/* Chrome, Safari, Opera */
+	-moz-column-count: 2;
+	/* Firefox */
+	column-count: 2;
+	-webkit-column-gap: 40px;
+	/* Chrome, Safari, Opera */
+	-moz-column-gap: 40px;
+	/* Firefox */
+	column-gap: 40px;
+	-webkit-column-rule: 1px solid lightblue;
+	/* Chrome, Safari, Opera */
+	-moz-column-rule: 1px solid lightblue;
+	/* Firefox */
+	column-rule: 1px solid lightblue;
+}
+
+.row1 {
+	margin-left: 5%;
+	width: 90%;
+	height: 3in;
+	background-color: white;
+}
+
+.row2 {
+	margin-top: 220px;
+	height: 6in;
+}
+
+.row3 {
+	margin-top: 20px;
+	height: 1.5in;
+	background-color: #034f84;
+}
+
+.container {
+	height: 17in;
+}
+
+.button2 {
+	background-color: white;
+	color: black;
+	border: 2px solid #f44336;
+}
