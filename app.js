@@ -6,7 +6,9 @@ app.use('/', express.static(__dirname));
 app.use('/css', express.static(__dirname + '/styles'));
 app.use('/assets', express.static(__dirname + '/assets'));
 app.get('/*', function (req, res) {
-	res.sendFile('Community-support-full.html');
+	res.sendFile('Community-support-full.html', {
+		root: __dirname
+	});
 });
 app.get('/payment', function (req, res) {
 	res.sendFile(path.join(__dirname + '/payment-portal-full.html'));
