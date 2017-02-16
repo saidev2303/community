@@ -13,6 +13,6 @@ app.get('/*', function (req, res) {
 app.get('/payment', function (req, res) {
 	res.sendFile(path.join(__dirname + '/payment-portal-full.html'));
 });
-http.listen(port, function () {
+app.listen(port, function () {
 	console.log('listening on', http.address().port);
 });
