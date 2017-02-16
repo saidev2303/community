@@ -14,5 +14,5 @@ app.get('/payment', function (req, res) {
 	res.sendFile(path.join(__dirname + '/payment-portal-full.html'));
 });
 app.listen(port, function () {
-	console.log('listening on', http.address().port);
+	console.log('listening on 3000');
 });
