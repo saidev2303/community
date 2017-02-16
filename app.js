@@ -3,8 +3,8 @@ var app = express();
 var path = require("path");
 var port = process.env.PORT || 3000;
 app.use('/', express.static(__dirname));
-app.use('/css', express.static(__dirname + '/styles'));
-app.use('/assets', express.static(__dirname + '/assets'));
+app.use(express.static(__dirname + '/styles'));
+app.use(express.static(__dirname + '/assets'));
 app.get('/*', function (req, res) {
 	res.sendFile('Community-support-full.html', {
 		root: __dirname
